@@ -78,3 +78,34 @@ h1,h2{
 #save-btn{
     background-color: cornflowerblue;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .fullBox {
+      max-width: 90%;
+    }
+  
+    h1 {
+      font-size: 1.2rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  
+    .box {
+      font-size: 0.9rem;
+    }
+  
+    #save-el {
+      font-size: 0.8rem;
+    }
+  }
