@@ -1,0 +1,64 @@
+body{
+    background-image: url(workout.jpg);
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+button{
+    align-content: center;
+    border:2px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: darkred;
+    font-weight: bold;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+
+
+.center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2{
+   text-align: center;
+}
+
+.box{
+    
+    padding: 7px 15px;
+    border:2px solid rgb(154, 148, 141);
+    width:fit-content;
+    height: auto;
+    border-radius: 7px;
+    background:rgb(244, 226, 203);
+}
+
+.fullBox{
+    
+    padding: 15px;
+    border:5px solid rgb(0, 0, 0,.7);
+    width:fit-content;
+    height: auto;
+    border-radius: 7px;
+    background:rgba(220, 187, 176, 0.5);
+    margin:auto
+    
+}
+
+#increment-btn{
+    background-color:coral;
+}
+
+#save-btn{
+    background-color: cornflowerblue;
+}
