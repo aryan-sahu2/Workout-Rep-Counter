@@ -2,7 +2,7 @@ body{
     background-image: url(workout.jpg);
     background-repeat: no-repeat;
     height:100vh;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -80,7 +80,7 @@ h1,h2{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     body {
       font-size: 14px;
     }
