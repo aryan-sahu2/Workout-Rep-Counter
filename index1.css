@@ -3,8 +3,14 @@ body{
     background-repeat: no-repeat;
     height:100vh;
     background-size: cover;
+    background-position: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     
 }
 
@@ -44,19 +50,29 @@ h1,h2{
 }
 
 .fullBox{
-    
     padding: 15px;
     border:5px solid rgb(0, 0, 0,.7);
     width:fit-content;
     height: auto;
     border-radius: 7px;
     background:rgba(220, 187, 176, 0.5);
-    margin:auto
-    
+    margin: 20px;
+    /* margin: 0; */
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); 
 }
 
 #increment-btn{
     background-color:coral;
+    width: 165px;
+    margin-right: 1px;
+}
+#decrement-btn{
+    background-color:coral;
+    margin-left: 0px;
+    width: 34px;
 }
 
 #save-btn{
